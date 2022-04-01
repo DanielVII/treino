@@ -1,5 +1,13 @@
 :root {
   --vermelho-escuro: #8e2424;
+  --text-color: #667085;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  font-family: "Inter", sans-serif;
 }
 
 .navbar {
@@ -12,7 +20,6 @@
   align-items: center;
 
   padding: 0px;
-  position: static;
 }
 
 #header-container {
@@ -37,18 +44,14 @@ a {
   flex-grow: 1;
 }
 
-#logo-nome_logo {
-  height: 26.9px;
+#logo-nome img {
+  height: 27px;
   width: 27px;
 }
 
-#logo-nome_nome {
+#logo-nome h1 {
   width: 113px;
   height: 24px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   font-size: 18px;
   font-weight: 500;
@@ -56,6 +59,7 @@ a {
   text-align: left;
 
   color: #3a404e;
+  margin-left: 10px;
 }
 
 /* outras paginas */
@@ -67,15 +71,8 @@ a {
   flex-grow: 12;
 }
 
-#outras-pgs_lista {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.pagina {
-  width: 70px;
+#outras-pgs a {
+  width: 80px;
   height: 24px;
 
   display: flex;
@@ -88,7 +85,7 @@ a {
   line-height: 24px;
   letter-spacing: 0em;
 
-  color: #667085;
+  color: var(--text-color);
 }
 
 /* login e cadastro */
@@ -101,7 +98,7 @@ a {
   flex-grow: 1;
 }
 
-.login-cadastro_botao {
+#login-cadastro button {
   width: 112px;
   height: 44px;
 
@@ -121,7 +118,7 @@ a {
 }
 
 #login-cadastro_login {
-  color: #667085;
+  color: var(--text-color);
 
   background-color: white;
 }
@@ -140,4 +137,33 @@ a {
   background-color: #a01a1a;
 }
 
-/* Cabeçalho */
+/* apresentacao */
+
+#apresentacao {
+  width: 100%;
+  height: 407;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 3%;
+}
+
+#apresentacao span {
+  color: var(--vermelho-escuro);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#apresentacao h1 {
+  color: #101828;
+  font-size: 48px;
+  margin: 2% 0;
+}
+
+#apresentacao p {
+  color: var(--text-color);
+  font-size: 20px;
+}
