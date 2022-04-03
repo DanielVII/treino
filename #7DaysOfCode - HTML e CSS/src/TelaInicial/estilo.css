@@ -1,6 +1,7 @@
 :root {
   --vermelho-escuro: #8e2424;
   --text-color: #667085;
+  --cinza-escuro: #101828;
 }
 
 body {
@@ -18,11 +19,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 0px;
 }
 
-#header-container {
+.header-container {
   width: 88%;
   height: 44px;
 
@@ -36,7 +35,7 @@ a {
 
 /* parte da logo */
 
-#logo-nome {
+.logo-nome {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,12 +43,12 @@ a {
   flex-grow: 1;
 }
 
-#logo-nome img {
+.logo-nome img {
   height: 27px;
   width: 27px;
 }
 
-#logo-nome h1 {
+.logo-nome h1 {
   width: 113px;
   height: 24px;
 
@@ -64,14 +63,14 @@ a {
 
 /* outras paginas */
 
-#outras-pgs {
+.outras-pgs {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 12;
 }
 
-#outras-pgs a {
+.outras-pgs a {
   width: 80px;
   height: 24px;
 
@@ -90,7 +89,7 @@ a {
 
 /* login e cadastro */
 
-#login-cadastro {
+.login-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +97,7 @@ a {
   flex-grow: 1;
 }
 
-#login-cadastro button {
+.login-cadastro button {
   width: 112px;
   height: 44px;
 
@@ -139,7 +138,7 @@ a {
 
 /* apresentacao */
 
-#apresentacao {
+.apresentacao {
   width: 100%;
   height: 407;
 
@@ -148,22 +147,70 @@ a {
   align-items: center;
   justify-content: center;
 
-  padding-top: 3%;
+  padding: 3% 0;
 }
 
-#apresentacao span {
+.apresentacao span {
   color: var(--vermelho-escuro);
   font-size: 16px;
   font-weight: 600;
 }
 
-#apresentacao h1 {
-  color: #101828;
+.apresentacao h1 {
+  color: var(--cinza-escuro);
   font-size: 48px;
   margin: 2% 0;
 }
 
-#apresentacao p {
+.apresentacao p {
   color: var(--text-color);
   font-size: 20px;
+}
+
+/* informações da empresa */
+
+.info-empresa {
+  width: 100%;
+  height: 288px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.info-empresa_container {
+  width: 88%;
+  height: 288px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 6vh;
+}
+
+.info-empresa .infos {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 2vw;
+}
+
+.info-empresa h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--vermelho-escuro);
+
+  margin-bottom: 4px;
+}
+
+.info-empresa span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+
+  margin: 8px 0;
+}
+
+.info-empresa p {
+  font-size: 16px;
+  color: var(--text-color);
 }
