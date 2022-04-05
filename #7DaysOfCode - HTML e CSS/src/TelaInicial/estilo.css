@@ -62,7 +62,7 @@ a {
 
   font-size: 1em;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5em;
 
   color: var(--text-color);
 }
@@ -89,7 +89,7 @@ a {
   align-items: center;
 
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1em;
 
   border: none;
   border-radius: 10%;
