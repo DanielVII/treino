@@ -333,3 +333,57 @@ a {
   font-size: 0.8em;
   color: var(--text-color);
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #f9fafb;
+
+  padding: 8vh 0;
+}
+
+.acompanhar-oportunidade {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.acompanhar-oportunidade-subtext {
+  font-size: 1.2em;
+  color: var(--text-color);
+  margin: 3vh 0;
+}
+
+footer .caixa-input {
+  border-radius: 0.5em;
+  width: 20em;
+  height: 2.7em;
+
+  margin-right: 0.5em;
+
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+
+  padding-left: 0.5em;
+}
+
+footer .botao-input {
+  background-color: var(--vermelho-escuro);
+  width: 7em;
+  height: 3em;
+
+  border: none;
+  border-radius: 0.5em;
+
+  color: white;
+}
+
+.copyright {
+  color: var(--text-color);
+  font-size: 0.8em;
+  margin-top: 2vh;
+}
