@@ -9,9 +9,9 @@
 
 ### Concluido :heavy_check_mark:
 
-![alt text](treino/react-um-alura/src/assets/imagens/certificado1-2.png)
-![alt text](treino/react-um-alura/src/assets/imagens/certificado2-2.png)
+![alt text](react-um-alura/src/assets/imagens/certificado1-2.png)
+![alt text](react-um-alura/src/assets/imagens/certificado2-2.png)
 
 ### Projeto rodando
 
-![alt text](treino/react-um-alura/src/assets/imagens/projeto.png)
+![alt text](react-um-alura/src/assets/imagens/projeto.png)
