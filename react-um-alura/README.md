@@ -9,9 +9,9 @@
 
 ### Concluido :heavy_check_mark:
 
-<img src="./src/assets/imagens/certificado1-2"/>
-<img src="./src/assets/imagens/certificado2-2"/>
+![alt text](treino/react-um-alura/src/assets/imagens/certificado1-2.png)
+![alt text](treino/react-um-alura/src/assets/imagens/certificado2-2.png)
 
 ### Projeto rodando
 
-<img src= "./src/assets/imagens/projeto"/>
+![alt text](treino/react-um-alura/src/assets/imagens/projeto.png)
