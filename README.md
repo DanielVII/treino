@@ -12,7 +12,7 @@
 
 ### 🛠 Tecnologias estudadas até agora
 
-- [HTML5]
-- [CSS3]
-- [JavaScript]
+- HTML5
+- CSS3
+- JavaScript
 - [React](https://pt-br.reactjs.org/)
