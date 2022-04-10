@@ -9,9 +9,9 @@
 
 ### Concluido :heavy_check_mark:
 
-<img src="./assets/imagens/certificado1-2"/>
-<img src="./assets/imagens/certificado2-2"/>
+<img src="./src/assets/imagens/certificado1-2"/>
+<img src="./src/assets/imagens/certificado2-2"/>
 
 ### Projeto rodando
 
-<img src= "./assets/imagens/projeto"/>
+<img src= "./src/assets/imagens/projeto"/>
