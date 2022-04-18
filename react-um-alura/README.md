@@ -9,10 +9,13 @@
 
 ### Concluido :heavy_check_mark:
 
-<img src="https://user-images.githubusercontent.com/62727519/162626472-58bcae02-3bba-4762-81fc-a52561ec9dd1.png"/>
-<img src="https://user-images.githubusercontent.com/62727519/162626524-a84fce4a-73b0-4038-8fb5-59d3c9f2a475.png"/>
-
 ### Projeto rodando ⚙️
+
 <div align="center">
     <img src="https://user-images.githubusercontent.com/62727519/162626545-47000322-80fc-4f47-baff-00755cf0ec8a.png"/>
 <div/>
+
+### Certificado
+
+<img src="https://user-images.githubusercontent.com/62727519/162626472-58bcae02-3bba-4762-81fc-a52561ec9dd1.png"/>
+<img src="https://user-images.githubusercontent.com/62727519/162626524-a84fce4a-73b0-4038-8fb5-59d3c9f2a475.png"/>
