@@ -24,36 +24,37 @@
 
 <P>Clone o repositorio</p>
 ```bash
+$ git clone https://github.com/DanielVII/treino.git
 ```
 
 <p>É possivel que o Psycopg2 der erro na hora de instalar, para resolver isso é só baixar a lib:</p>
 ```bash
-.../001-Django-start$ sudo apt install libpq-dev
+$ sudo apt install libpq-dev
 ```
 
 <p>Crie o ambiente virtual "venv"</p>
 ```bash
-.../001-Django-start$ python3 -m venv ./venv
+$ python3 -m venv ./venv
 ```
 
 <p>Entre na máquina virtual</p>
 ```bash
-.../001-Django-start$ source .../path/to/001-django-start/venv/bin/activate
+$ source .../path/to/001-django-start/venv/bin/activate
 ```
 
 <p>Instale o Django</p>
 ```bash
-(venv).../001-Django-start$ pip install django
+(venv)$ pip install django
 ```
 
 <p>Instale o Psycopg</p>
 ```bash
-(venv).../001-Django-start$ pip install psycopg2
+(venv)$ pip install psycopg2
 ```
 
 <p>Seu binario</p>
 ```bash
-(venv).../001-Django-start$ pip install psycopg2-binary
+(venv)$ pip install psycopg2-binary
 ```
 
 ### Projeto rodando ⚙️
