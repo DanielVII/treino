@@ -1,6 +1,6 @@
 <h1 align="center">Integração de modelos no Django: Filtros, buscas e admin</h1>
 <p align="center">
-    Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
+    Esse projeto é uma extensão do 001. Nele foi melhorado bastante a visualização do admin, além de ter colocado um search nas "tabelas" do admin, tal serach foi implementado no site principal também, assim facilitando achar as receitas. Ademais, foi adicionado usuários com poderes limitados pelo adm. Por fim foi colocado fotos pra deixar as receitas mais únicas(apesar de eu não ter escolhido as melhores imagens/nomes). Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
     <a href="https://www.linkedin.com/in/guilherme-lima-458925178/">Guilherme Lima</a>.
 </p>
 
@@ -48,7 +48,7 @@ $ source .../path/to/002-Django-filtros-search/venv/bin/activate
 $ pip install django
 ```
 
-<p>Instale o Psycopg</p>
+<p>Instale o Psycopg(Para a conexão com o postgres)</p>
 
 ```bash
 #Dentro da máquina virtual
@@ -61,3 +61,26 @@ $ pip install psycopg2
 #Dentro da máquina virtual
 $ pip install psycopg2-binary
 ```
+
+<p>Instale o pillow(para lidar com as fotos do site)</p>
+
+```bash
+#Dentro da máquina virtual
+$ pip install pillow
+```
+
+### Projeto rodando ⚙️
+
+<div align="center">
+    <h4 align="center">Admin melhorado</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734280-ae5745c2-0f74-4a19-94a7-43fda963cf7b.png"/>
+    <h4 align="center">Receitas com fotos</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734604-221ee996-f480-49bf-b473-b9cab9ce9086.png"/>
+    <h4 align="center">Search funcionando</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734787-44c67921-90f7-481c-acd5-1853b19235a6.png"/>
+<div/>
+
+### Certificado
+
+<img src="https://user-images.githubusercontent.com/62727519/164735040-d7b16e09-ff77-4b7d-9460-a77ee0fc925d.png"/>
+<img src="https://user-images.githubusercontent.com/62727519/164735197-78e7897b-6507-48c3-a9f8-c7ea8d477d7b.png"/>
