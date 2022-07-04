@@ -67,7 +67,7 @@ $ pip install psycopg2
 $ pip install psycopg2-binary
 ```
 
-<p weight="bold">Parte do Back</p>
+## Parte do Back
 
 <p>Infos do Server e DB:</p>
 <ol>
