@@ -67,7 +67,7 @@ $ pip install psycopg2
 $ pip install psycopg2-binary
 ```
 
-<p style="font-weight: bold;">Parte do Back</p>
+<p font-weight= "bold";>Parte do Back</p>
 
 <p>Infos do Server e DB:</p>
 <ol>
@@ -80,6 +80,7 @@ $ pip install psycopg2-binary
 <p>Caso alguma info seja diferente das de cima será necessario mudar em "../aluraReceita/aluraReceita/settings.py" os dados do DataBase.</p>
 
 <p>Após essas configurações é necessario fazer as migrações das tabelas:</p>
+
 ```bash
 #Dentro da máquina virtual
 $ python manage.py migrate
