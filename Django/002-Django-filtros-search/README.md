@@ -69,6 +69,25 @@ $ pip install psycopg2-binary
 $ pip install pillow
 ```
 
+#### Parte do Back
+
+<p>Infos do Server e DB:</p>
+<ol>
+    <li>User: postgres</li>
+    <li> Senha: Elefanterosa</li>
+    <li>Host: localhost</li>
+    <li>Name DataBase: alura_receita</li>
+</ol>
+
+<p>Caso alguma info seja diferente das de cima será necessario mudar em "../aluraReceita/aluraReceita/settings.py" os dados do DataBase.</p>
+
+<p>Após essas configurações é necessario fazer as migrações das tabelas:</p>
+
+```bash
+#Dentro da máquina virtual
+$ python manage.py migrate
+```
+
 ### Projeto rodando ⚙️
 
 <div align="center">
