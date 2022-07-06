@@ -92,7 +92,7 @@ $ python manage.py migrate
 
 <div align="center">
     <h4 align="center">Registro de usuário</h4>
-    <img src="https://github.com/DanielVII/treino/issues/16#issue-1295826203"/>
+    <img src="https://user-images.githubusercontent.com/62727519/177559896-b40ad2ae-fe66-4a50-981b-e1b39f923ebe.png"/>
     <h4 align="center">Receitas com fotos</h4>
     <img src="https://user-images.githubusercontent.com/62727519/164734604-221ee996-f480-49bf-b473-b9cab9ce9086.png"/>
     <h4 align="center">Search funcionando</h4>
