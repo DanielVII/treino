@@ -18,9 +18,9 @@ Esse projeto é uma extensão do 003. Curso feito na <a href="https://cursos.alu
 ### Projeto rodando ⚙️
 
 <div align="center">
-    <h4 align="center"></h4>
+    <!-- <h4 align="center"></h4> -->
     <img src=""/>
-<div/>
+</div>
 
 ### Colocando para funcionar (Ubuntu)
 
