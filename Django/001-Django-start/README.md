@@ -20,6 +20,19 @@
     <li><a href="https://www.postgresql.org/">Postgresql</a></li>
 </ul>
 
+### Projeto rodando ⚙️
+
+<div align="center">
+    <h4 align="center">Site</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/163812490-590af5b2-d8ea-41d1-b56a-d2010f79a2f6.png"/>
+    <h4 align="center">Criando nova receita via ADMIN</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/163812802-9fa2f5ae-04a8-483a-a042-d3b24cc5aa00.png"/>
+    <h4 align="center">Voltando para o site</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/163812937-3f0f5f3e-9aa2-4cf6-8b51-e78f8dd64992.png"/>
+    <h4 align="center">Entrando na receita feita</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/163813126-12c869f0-74b6-4586-b7b8-d7b2214c8276.png"/>
+</div>
+
 ### Colocando para funcionar (Ubuntu)
 
 <P>Clone o repositorio</p>
@@ -85,19 +98,6 @@ $ pip install psycopg2-binary
 #Dentro da máquina virtual
 $ python manage.py migrate
 ```
-
-### Projeto rodando ⚙️
-
-<div align="center">
-    <h4 align="center">Site</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/163812490-590af5b2-d8ea-41d1-b56a-d2010f79a2f6.png"/>
-    <h4 align="center">Criando nova receita via ADMIN</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/163812802-9fa2f5ae-04a8-483a-a042-d3b24cc5aa00.png"/>
-    <h4 align="center">Voltando para o site</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/163812937-3f0f5f3e-9aa2-4cf6-8b51-e78f8dd64992.png"/>
-    <h4 align="center">Entrando na receita feita</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/163813126-12c869f0-74b6-4586-b7b8-d7b2214c8276.png"/>
-<div/>
 
 ### Certificado
 

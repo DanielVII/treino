@@ -15,6 +15,21 @@ Esse projeto é uma extensão do 002. Nele foi criado o sistema de usuário. O u
     <li><a href="https://www.postgresql.org/">Postgresql</a></li>
 </ul>
 
+### Projeto rodando ⚙️
+
+<div align="center">
+    <h4 align="center">Registro de usuário</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/177558666-5ba557a9-d247-4e5e-8946-c0a09c229ad5.png"/>
+    <h4 align="center">Login após registro bem sucedido</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/177559896-b40ad2ae-fe66-4a50-981b-e1b39f923ebe.png"/>
+    <h4 align="center">Usuário criando nova receita</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/177562680-b8fe99b3-8a33-4c11-bd86-2a8752f80b52.png"/>
+    <h4 align="center">Usuário visualizando suas receitas</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/177563342-bb9b5c66-815b-49d7-9783-ddf9c9138a20.png"/>
+    <h4 align="center">Home com receitas aprovadas pelo mod</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/177563606-f6bfcfa5-58d4-4e54-a4ec-c3b7ee48dcea.png"/>
+</div>
+
 ### Colocando para funcionar (Ubuntu)
 
 <P>Clone o repositorio</p>
@@ -88,20 +103,6 @@ $ pip install pillow
 $ python manage.py migrate
 ```
 
-### Projeto rodando ⚙️
-
-<div align="center">
-    <h4 align="center">Registro de usuário</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/177558666-5ba557a9-d247-4e5e-8946-c0a09c229ad5.png"/>
-    <h4 align="center">Login após registro bem sucedido</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/177559896-b40ad2ae-fe66-4a50-981b-e1b39f923ebe.png"/>
-    <h4 align="center">Usuário criando nova receita</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/177562680-b8fe99b3-8a33-4c11-bd86-2a8752f80b52.png"/>
-    <h4 align="center">Usuário visualizando suas receitas</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/177563342-bb9b5c66-815b-49d7-9783-ddf9c9138a20.png"/>
-    <h4 align="center">Home com receitas aprovadas pelo mod</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/177563606-f6bfcfa5-58d4-4e54-a4ec-c3b7ee48dcea.png"/>
-<div/>
 
 ### Certificado
 

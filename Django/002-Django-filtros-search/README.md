@@ -15,6 +15,17 @@
     <li><a href="https://www.postgresql.org/">Postgresql</a></li>
 </ul>
 
+### Projeto rodando ⚙️
+
+<div align="center">
+    <h4 align="center">Admin melhorado</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734280-ae5745c2-0f74-4a19-94a7-43fda963cf7b.png"/>
+    <h4 align="center">Receitas com fotos</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734604-221ee996-f480-49bf-b473-b9cab9ce9086.png"/>
+    <h4 align="center">Search funcionando</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/164734787-44c67921-90f7-481c-acd5-1853b19235a6.png"/>
+</div>
+
 ### Colocando para funcionar (Ubuntu)
 
 <P>Clone o repositorio</p>
@@ -88,16 +99,6 @@ $ pip install pillow
 $ python manage.py migrate
 ```
 
-### Projeto rodando ⚙️
-
-<div align="center">
-    <h4 align="center">Admin melhorado</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/164734280-ae5745c2-0f74-4a19-94a7-43fda963cf7b.png"/>
-    <h4 align="center">Receitas com fotos</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/164734604-221ee996-f480-49bf-b473-b9cab9ce9086.png"/>
-    <h4 align="center">Search funcionando</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/164734787-44c67921-90f7-481c-acd5-1853b19235a6.png"/>
-<div/>
 
 ### Certificado
 
