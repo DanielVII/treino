@@ -2,39 +2,35 @@ from django.shortcuts import redirect, render, get_object_or_404
 from django.contrib.auth.models import User
 from receitas.models import Receita
 from django.contrib import auth, messages
-
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def index(request):
+    """ Pagina inicial com receitas postadas """
     receitas = Receita.objects.order_by('-data_receita').filter(publicada=True)
+    paginator = Paginator(receitas, 3)
+    page = request.GET.get('page')
+    receitas_por_pagina = paginator.get_page(page)
+
 
     dados = {
-        'receitas': receitas
+        'receitas': receitas_por_pagina
     }
 
     return render(request, "receitas/index.html", dados)
 
 
 def receita(request, receita_id):
+    """ Faz um render da receita """
+
     receita = get_object_or_404(Receita, pk=receita_id)
     receita_a_exibir = {
         'receita': receita
     }
     return render(request, "receitas/receita.html", receita_a_exibir)
 
-def busca(request):
-    lista_receitas = Receita.objects.order_by('-data_receita').filter(publicada=True)
-
-    if 'buscar' in request.GET:
-        nome_a_buscar = request.GET['buscar']
-        lista_receitas = lista_receitas.filter(nome_receita__icontains=nome_a_buscar)
-    
-    dados = {
-        'receitas': lista_receitas
-    }
-
-    return render(request, 'receitas/buscar.html', dados)
 
 def cria_receita(request):
+    """ Salva nova receita no DB """
     if request.method == 'POST':
         nome_receita = request.POST['nome_receita']
         ingredientes = request.POST['ingredientes']
@@ -60,16 +56,19 @@ def cria_receita(request):
         return render(request, 'receitas/cria_receita.html')
 
 def deleta_receita(request, receita_id):
+    """" Pega PK da receita e a deleta no DB """
     receita = get_object_or_404(Receita, pk=receita_id)
     receita.delete()
-    return redirect(dashboard)
+    return redirect('dashboard')
 
 def edita_receita(request, receita_id):
+    """ pega a receita e a joga para a tela de edição"""
     receita = get_object_or_404(Receita, pk=receita_id)
     receita_a_editar = {'receita':receita}
     return render(request, 'receitas/edita_receita.html', receita_a_editar)
 
 def atualiza_receita(request):
+    """ Pega as mudanças feitas na edição e salva no DB"""
     if request.method == 'POST':
         receita_id = request.POST['receita_id']
         r = Receita.objects.get(pk=receita_id)
@@ -82,4 +81,4 @@ def atualiza_receita(request):
         if 'foto_receita' in request.FILES:
             r.foto_receita = request.FILES['foto_receita']
         r.save()
-        return redirect(dashboard)
+        return redirect('dashboard')

@@ -5,6 +5,7 @@ from django.contrib import auth, messages
 from receitas.models import Receita
 
 def cadastro (request):
+    """ Cadastra usuario no site """
     if request.method == 'POST':
         nome = request.POST['nome']
         email = request.POST['email']
@@ -39,6 +40,7 @@ def cadastro (request):
         return render(request, 'usuarios/cadastro.html')
 
 def login(request):
+    """ Autentica usuario no site """
     if request.method == 'POST':
         email = request.POST['email']
         senha =request.POST['senha']
@@ -55,10 +57,12 @@ def login(request):
     return render(request, 'usuarios/login.html')
 
 def logout(request):
+    """ Desliga usuario do site """
     auth.logout(request)
     return redirect('index')
 
 def dashboard(request):
+    """ Tela inicial tanto para quem está logado, para quem não"""
     if request.user.is_authenticated:
         id = request.user.id
         receitas = Receita.objects.order_by('-data_receita').filter(pessoa=id)
