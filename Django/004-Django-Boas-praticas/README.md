@@ -1,6 +1,6 @@
-<h1 align="center">Autenticação no Django: formulários, requisições e mensagens</h1>
+<h1 align="center">Boas práticas no Django: apps, pastas e paginação</h1>
 <p align="center">
-Esse projeto é uma extensão do 003. Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
+Esse projeto é uma extensão do 003. Nele foi terminado o CRUD das receitas do site, adicionando Delete e Edit, que faltavam. Além disso, foi implementado paginação para  melhorar a navegação. Já na parte dos arquivos foi feito uma melhor organização para encontrar os Apps, também foi feito modularização dos Métodos. Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
     <a href="https://www.linkedin.com/in/guilherme-lima-458925178/">Guilherme Lima</a>.
 </p>
 
@@ -18,8 +18,14 @@ Esse projeto é uma extensão do 003. Curso feito na <a href="https://cursos.alu
 ### Projeto rodando ⚙️
 
 <div align="center">
-    <!-- <h4 align="center"></h4> -->
-    <img src=""/>
+    <h4 align="center">Botões de Deletar e Editar</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/179236467-0fc83c2f-094e-4748-b918-743c01259dac.png"/>
+    <h4 align="center">Tela para editar a receita</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/179237404-8b17234a-c97b-4ed6-b658-3554ee06e6c4.png"/>
+    <h4 align="center">Receita editada</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/179239038-e566c57f-0bfe-4520-9576-cdaf47eefef8.png"/>
+    <h4 align="center">Paginação do site</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/179240613-63281116-d449-4aad-be2e-d9e3a55dc4de.png"/>
 </div>
 
 ### Colocando para funcionar (Ubuntu)
@@ -98,5 +104,5 @@ $ python manage.py migrate
 
 ### Certificado
 
-<img src=""/>
-<img src=""/>
+<img src="https://user-images.githubusercontent.com/62727519/179242059-6606634b-fae0-4c40-802a-c8b5dec3eed6.png"/>
+<img src="https://user-images.githubusercontent.com/62727519/179242236-2d01ad05-3dcd-4bb7-a28d-ed68c70be029.png"/>
