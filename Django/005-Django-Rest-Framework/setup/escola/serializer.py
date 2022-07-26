@@ -1,0 +1,13 @@
+from dataclasses import field
+from rest_framework import serializers
+from escola.models import Aluno, Curso
+
+class AlunoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Aluno
+        fields = '__all__'
+
+class CursoSerializer(serializers.ModelField):
+    class Meta:
+        model = Curso
+        fields = '__all__'
