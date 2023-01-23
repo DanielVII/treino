@@ -6,6 +6,7 @@ public class b09AreaCirculo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println(Math.pow(25.0, 0.5));
 		double raio;
 		
 		System.out.print("Raio: ");
