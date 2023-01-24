@@ -1,0 +1,6 @@
+<h1 align="center">React: desenvolvendo com JavaScript</h1>
+<p align="center">
+    Aprendendo a Base do React.js. No modulo <em>1</em> foi mostrado os comando básicos pra começar: <em><strong>npx create-react-app</strong></em> e <em>npm start</em>. Além disso mostrou que a página é contruido em componentes, pequenas partes que vão se juntar no app.js pra construir a aplicação. Claro que é possivel colcoar componente dentro de componente. Também foi mostrado as propriedades, que são argumentos passados na criação da tag do componente, no cód base ela é passada como uma parâmetro e é possivel ler seus atributos como se fosse uma classe. Ex: <em><strong>props.atributo</strong></em>. Outrossim, foi mostrado a forma de exportação do componete por meio de uma constante que usa arrow function. Ex: <em><strong>const componente = () => {}</strong></em>.
+    Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
+    <a href="https://www.linkedin.com/in/vinny-neves/">Vinicios Neves</a>.
+</p>
