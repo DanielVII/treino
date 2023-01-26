@@ -1,9 +1,15 @@
 <h1 align="center">React: desenvolvendo com JavaScript</h1>
 <p align="center">
-    Aprendendo a Base do React.js. No modulo <em>1</em> foi mostrado os comando básicos pra começar: <em><strong>npx create-react-app</strong></em> e <em>npm start</em>. Além disso mostrou que a página é contruido em componentes, pequenas partes que vão se juntar no app.js pra construir a aplicação. Claro que é possivel colcoar componente dentro de componente. Também foi mostrado as propriedades, que são argumentos passados na criação da tag do componente, no cód base ela é passada como uma parâmetro e é possivel ler seus atributos como se fosse uma classe. Ex: <em><strong>props.atributo</strong></em>. Outrossim, foi mostrado a forma de exportação do componete por meio de uma constante que usa arrow function. Ex: <em><strong>const componente = () => {}</strong></em>.
+    Aprendendo a Base do React.js. 
+</p>
+<p align="center">
+    No modulo 1 foi mostrado os comando básicos pra começar: <em><strong>npx create-react-app</strong></em> e <em>npm start</em>. Além disso mostrou que a página é contruido em componentes, pequenas partes que vão se juntar no app.js pra construir a aplicação. Claro que é possivel colcoar componente dentro de componente. Também foi mostrado as propriedades, que são argumentos passados na criação da tag do componente, no cód base ela é passada como uma parâmetro e é possivel ler seus atributos como se fosse uma classe. Ex: <em><strong>props.atributo</strong></em>. Outrossim, foi mostrado a forma de exportação do componete por meio de uma constante que usa arrow function. Ex: <em><strong>const componente = () => {}</strong></em>.
 </p>
 <p align="center">
     No modulo 2 foi mostrado um atributo padrão das props, <em><strong>props.children</strong></em>, esse atributo vai pegar todo o conteudo que estiver entre as tags do componente. Além disso foi falado sobre a diferença entre o <em><strong>map()</em></strong> e o forEach(), o map() percorre a lista, faz algum script e retorna um componente, o foreach() só percorre e roda o script, sem retorno. Também foi mostrado como adicionar eventos, basta fazer: <em><strong>onAlgo={funçãoFeitaNoMesmoFile}</em></strong> dentro da tag desejada.
+</p>
+<p align="center">
+    No modulo 3 foi mostrado sobre os hooks, que é usado para atualizar o estado da pag, os hooks são normalmente associados as funções com <em><strong>use</strong></em>AlgumaCoisa. O hook mostrado foi o <em><strong>useState</strong></em>, ele retorna uma variavel e uma função pra mudar essa variavel, essa variavel só vai afetar a pag se for modificada com setVar. Declaração: <em><strong>const [nomeVar, setNomeVar] = useState(varInicial)</strong></em>. Além disso foi mostrado como fazer um objeto só com variáveis: <em><strong>{var1, var2, ...}</strong></em>, a chave vai ser var1 e o seu valor vai ser o value do var1, o mesmo com var2.
 </p>
 <p align="center">
     Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
