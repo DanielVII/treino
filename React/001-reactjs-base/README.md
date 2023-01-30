@@ -12,6 +12,9 @@
     No modulo 3 foi mostrado sobre os hooks, que é usado para atualizar o estado da pag, os hooks são normalmente associados as funções com <em><strong>use</strong></em>AlgumaCoisa. O hook mostrado foi o <em><strong>useState</strong></em>, ele retorna uma variavel e uma função pra mudar essa variavel, essa variavel só vai afetar a pag se for modificada com setVar. Declaração: <em><strong>const [nomeVar, setNomeVar] = useState(varInicial)</strong></em>. Além disso foi mostrado como fazer um objeto só com variáveis: <em><strong>{var1, var2, ...}</strong></em>, a chave vai ser var1 e o seu valor vai ser o value do var1, o mesmo com var2.
 </p>
 <p align="center">
+    No modulo 4 foi mostrado uma nova forma de lidar com as props, que é identificando elas em vez de usar só props na criação da dunção, <em><strong>em vez de (props) se usa ({nome, data, cor})</em></strong>, então é só usar esses parâmetros dentro da função. Também foi mostrada o render condicional, colocando um bool seguido de && e o que se deseja renderizar. EX: <em><strong>idade > 18 && conteudoHtml ou idade > 18 ? renderSeForTrue : renderSeForFalso</em></strong>. Também foi dito que no react não é tão feio o <em><strong>css inline</em></strong>, caso o valor css recebido for uma props, se for a situação é só usar o style dentro da tag que se deseja usar o css inline. 
+</p>
+<p align="center">
     Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
     <a href="https://www.linkedin.com/in/vinny-neves/">Vinicios Neves</a>.
 </p>

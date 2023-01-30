@@ -5,11 +5,6 @@ import ListaSuspensa from "../ListaSuspensa"
 import './Formulario.css'
 
 const Formulario = (props) => {
-    const listaItens = [
-        "Devops",
-        "Front-End",
-        "Back-End"
-    ]
 
     const aoSalvar = (e) => {
         e.preventDefault()
@@ -19,6 +14,11 @@ const Formulario = (props) => {
             imagem,
             time
         })
+
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     const [nome, setNome] = useState('')
@@ -53,7 +53,7 @@ const Formulario = (props) => {
                     aoDigitar={time => setTime(time)}
                     obrigatorio={true}
                     label="Time"
-                    itens={listaItens} />
+                    itens={props.times} />
                 <Botao>
                     Criar Card
                 </Botao>
