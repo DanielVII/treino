@@ -15,6 +15,60 @@
     No modulo 4 foi mostrado uma nova forma de lidar com as props, que é identificando elas em vez de usar só props na criação da dunção, <em><strong>em vez de (props) se usa ({nome, data, cor})</em></strong>, então é só usar esses parâmetros dentro da função. Também foi mostrada o render condicional, colocando um bool seguido de && e o que se deseja renderizar. EX: <em><strong>idade > 18 && conteudoHtml ou idade > 18 ? renderSeForTrue : renderSeForFalso</em></strong>. Também foi dito que no react não é tão feio o <em><strong>css inline</em></strong>, caso o valor css recebido for uma props, se for a situação é só usar o style dentro da tag que se deseja usar o css inline. 
 </p>
 <p align="center">
+    No modulo 5 foi mostrado a palavra resevada <em><strong>debugger</em></strong>, usada no cod para fazer o que o seu nome já sugere. Também foi mostrado o <em><strong>Fragment</em></strong>, uma tag especial do React, ela será ignorada quando o DOM for renderizado, outra forma de declarar ela é com uma tag vazia. Além disso foi apresentado o <em><strong>MUI</em></strong>, uma biblioteca com vários componentes prontos pra serem utilizados.
+</p>
+<p align="center">
     Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
     <a href="https://www.linkedin.com/in/vinny-neves/">Vinicios Neves</a>.
 </p>
+
+### Concluido :heavy_check_mark:
+
+### :bookmark_tabs: Pré-requesitos
+
+Para rodar essa aplicação é necessario as seguintes ferramentas:
+
+<ul>
+    <li><a href="https://git-scm.com">Git</a></li>
+    <li><a href="https://nodejs.org/en/">Node.js</a></li>
+</ul>
+
+### :gear: Colocando para funcionar
+
+```bash
+# Clone o repositorio na pasta desejada
+$ git clone https://github.com/DanielVII/treino.git
+```
+
+```bash
+# Acesse a pasta  onde foi feito o clone
+$ cd suaPasta/
+```
+
+```bash
+# Instale as dependências
+$ npm install
+```
+
+```bash
+# Agora é só abrir
+$ npm start
+```
+
+
+### Projeto rodando ⚙️
+
+<div align="center">
+    <h4 align="center">Site: Formulario pra criar cards de acordo com o time.</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/215748929-9db705c1-4ee2-4829-b5e9-f28c006251ac.png"/>
+</div>
+
+<div align="center">
+    <h4 align="center">Site: Card criado de acordo com as informações passadas.</h4>
+    <img src="https://user-images.githubusercontent.com/62727519/215749243-05862389-5da5-44ef-a368-5471ee62e196.png"/>
+</div>
+
+### Certificado
+
+<img src="https://user-images.githubusercontent.com/62727519/215747995-a1045fe2-70b4-4c37-beca-87e77289517f.png"/>
+<img src="https://user-images.githubusercontent.com/62727519/215748293-5f335ed3-b1ed-40e7-a5a7-88112440c027.png"/>
