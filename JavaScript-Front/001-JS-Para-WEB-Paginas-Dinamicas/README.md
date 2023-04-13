@@ -25,7 +25,7 @@
 
 ### Colocando para funcionar (Ubuntu)
 
-<P>Clone o repositorio</p>
+####Clone o repositorio
 
 ```bash
 $ git clone https://github.com/DanielVII/treino.git
