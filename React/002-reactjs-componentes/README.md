@@ -5,6 +5,9 @@
 <p align="center">
     No modulo 1 só foi feito a parte de pegar o projeto no github e preparar ele pra rodar com <em><strong>npm i</strong></em>.
 </p>
+<p align="center">
+    No modulo 2 falou-se mais sobre os componentes do react, fazendo uma comparação entre um componente e suas props com uma peça de lego, onde cada prop seria uma parte de encaixe do lego. Para mim ficou mais claro em pensar o componente como um objeto de POO, onde as props são os atributos e métodos, mas quando esse obj é criado em outro local é necessario passar todas as props dele, seja atributo ou método. Também foi falado sobre <em><strong>closure</strong></em>, que é uma forma de compartilhar variáveis em escopos diferentes, no react é mais usado para manipular eventos em componentes funcionais, apesar que esse conceito ainda está um tanto nebuloso para mim. Nesse modulo também foi falado sobre o <em><strong>react-icons</strong></em> e como usa-lo.
+</p>
 
 <p align="center">
     Curso feito na <a href="https://cursos.alura.com.br/">Alura</a>, ministrado por
