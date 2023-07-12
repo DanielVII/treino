@@ -24,7 +24,7 @@ $ git clone https://github.com/DanielVII/treino.git
 
 <p>Abra o index.html</p>
 
-### Certificado
+###  Resumo Aulas
 
-<img src="JavaScript-Front/003-JS-Armazenando-Dados-Na-WEB/resumoAulas.png"/>
+<img src="./resumoAulas.png"/>
 
