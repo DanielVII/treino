@@ -55,20 +55,6 @@ $ npm install
 $ npm start
 ```
 
+### Resumo Aulas
 
-### Projeto rodando ⚙️
-
-<div align="center">
-    <h4 align="center">Site: Formulario pra criar cards de acordo com o time.</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/215748929-9db705c1-4ee2-4829-b5e9-f28c006251ac.png"/>
-</div>
-
-<div align="center">
-    <h4 align="center">Site: Card criado de acordo com as informações passadas.</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/215749243-05862389-5da5-44ef-a368-5471ee62e196.png"/>
-</div>
-
-### Certificado
-
-<img src="https://user-images.githubusercontent.com/62727519/215747995-a1045fe2-70b4-4c37-beca-87e77289517f.png"/>
-<img src="https://user-images.githubusercontent.com/62727519/215748293-5f335ed3-b1ed-40e7-a5a7-88112440c027.png"/>
+<img src="React/001-reactjs-base/public/imagens/resumoAulas.png"/>

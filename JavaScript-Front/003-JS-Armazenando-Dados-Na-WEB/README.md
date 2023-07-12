@@ -14,13 +14,6 @@
     <li>Navegador preferido</li>
 </ul>
 
-### Projeto rodando ⚙️
-
-<div align="center">
-    <h4 align="center">Site: é possível add itens de forma persistente, sem BD, e remove-los/atualiza-los quando necessário.</h4>
-    <img src="https://user-images.githubusercontent.com/62727519/213590148-cea0f8ed-2343-42f1-b5db-b6fb5ae6ee07.png"/>
-</div>
-
 ### Colocando para funcionar (Ubuntu)
 
 <P>Clone o repositorio</p>
@@ -33,6 +26,5 @@ $ git clone https://github.com/DanielVII/treino.git
 
 ### Certificado
 
-<img src="https://user-images.githubusercontent.com/62727519/213590602-85707602-4325-4b7d-b976-e22826c8bec5.png"/>
-<img src="https://user-images.githubusercontent.com/62727519/213590686-c8530712-9273-4637-9688-399e7abc2e2c.png"/>
+<img src="JavaScript-Front/003-JS-Armazenando-Dados-Na-WEB/resumoAulas.png"/>
 
